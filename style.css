@@ -19,14 +19,19 @@ body{
 }
 .input{
     width: 300px;
-    height: 30px;
+    height: 35px;
     border-radius: 10px;
-    padding: 7px;
+    padding: 10px;
 
 }
 .box{
     margin-top: 40px;
-    margin-bottom: 70px;
+    
+}
+.div-alert{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
 }
 .convert,
 .reset,
