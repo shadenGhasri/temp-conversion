@@ -1,6 +1,8 @@
 const convert = document.querySelector(".convert")
 const reset = document.querySelector(".reset")
 const change = document.querySelector(".change")
+console.log(change)
+
 const input = document.querySelector(".input")
 const divAlert = document.querySelector(".div-alert")
 const title = document.querySelector(".title")
@@ -32,10 +34,17 @@ convert.addEventListener("click",()=>{
 })
 
 
-
 reset.addEventListener("click",()=>{
     input.value = ''
 })
 
-
+change.addEventListener("click",(e)=>{
+    console.log(e)
+    if(title.textContent ===  "converter ºC to ºF"){
+        
+        title.textContent ===  "converter ºF to ºC"
+    }else{
+        title.textContent ===  "converter ºC to ºF"
+    }
+})
 
