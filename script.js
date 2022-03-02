@@ -20,7 +20,22 @@ convert.addEventListener("click",()=>{
         pAlert.style.color = "black"
         divAlert.append(pAlert)
 
+    }else if(title.textContent ===  "converter ºF to ºC"){
+        let resultValue = (input.value -32) * 5 / 9
+        const pAlert = document.createElement("p");
+        pAlert.textContent =    `${resultValue}ºF to ${input.value}ºC`
+        pAlert.style.fontWeight = "bold"
+        pAlert.style.color = "black"
+        divAlert.append(pAlert)
+
     }
 })
+
+
+
+reset.addEventListener("click",()=>{
+    input.value = ''
+})
+
 
 
