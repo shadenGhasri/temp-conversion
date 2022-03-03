@@ -10,7 +10,7 @@ convert.addEventListener("click",()=>{
     if(input.value === ""){
         pAlert.textContent =    `insert correct value`
         pAlert.style.color = "red"
-        
+
     }else if(title.textContent ===  "converter ºC to ºF"){
         let resultValue = (input.value  * 1.8) + 32
         pAlert.textContent =    `${input.value}ºC to ${resultValue}ºF`
@@ -18,11 +18,8 @@ convert.addEventListener("click",()=>{
 
     }else if(title.textContent ===  "converter ºF to ºC"){
         let resultValue = (input.value -32) * 5 / 9
-        const pAlert = document.createElement("p");
         pAlert.textContent =    `${resultValue}ºF to ${input.value}ºC`
-        pAlert.style.fontWeight = "bold"
         pAlert.style.color = "black"
-        divAlert.append(pAlert)
 
     }
 })
@@ -30,6 +27,7 @@ convert.addEventListener("click",()=>{
 
 reset.addEventListener("click",()=>{
     input.value = ''
+    pAlert.textContent = ""
     // divAlert.style.visibility = "hidden"
 });
 
