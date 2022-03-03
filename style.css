@@ -5,11 +5,20 @@
 }
 body{
     background: url(./img/fe83ec498e27923618ffec4e17b67458.jpg) no-repeat;
-    background-size:1700px 836px;
+    background-size:1700px 850px;
 }
 .title{
     text-align: center;
     color: rgb(42, 28, 168);
+}
+.pAlert{
+    /* display: none; */
+    font-weight: bold;
+}
+.div-alert{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
 }
 .container{
     background-color: rgba(68, 71, 160, 0.2);
@@ -27,11 +36,6 @@ body{
     margin-top: 40px;
     
 }
-.div-alert{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 60px;
-}
 .convert,
 .reset,
 .change{
@@ -42,5 +46,3 @@ body{
     background-color: rgb(99, 115, 207);
     margin-left: 95px;
 }
-
-
